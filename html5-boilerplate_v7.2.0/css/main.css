@@ -29,6 +29,24 @@ a {
 
 }
 
+main {
+  text-align: center;
+
+}
+
+.button {
+  background-color: rgb(255, 94, 0);
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;      
+
+
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
