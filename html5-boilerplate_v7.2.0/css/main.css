@@ -18,8 +18,6 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  
-  
 }
 
 body{
@@ -32,7 +30,8 @@ body{
 
 a{
   text-decoration: none;
-  color: #000;
+  justify-content: space-evenly; 
+
 }
 
 /* Header */
@@ -52,7 +51,6 @@ a{
   box-sizing: border-box;
   text-align: center;
   width: 100%;
-  border-top: #000080 3px solid;
   border-bottom: #000080 3px solid;
   border-radius: 3px; 
 }
@@ -73,7 +71,6 @@ a{
 }
 
 #menu-grid a{
-  
   margin: 0 auto 0 auto; /* ta bort? */
   text-decoration: none;
   color: white;
@@ -109,28 +106,22 @@ a{
   padding: 0.8em;
   margin-top: 5px;
   border-radius: 4px; 
-  
 }
 
 .box-content {
   margin: auto;
   max-width: 800px;
-  height: 100vh;
-
-     
+  height: 100vh;   
 }
 
 .box-content h1 {
   margin-top: 100px;
   font-size: 40px;
   margin-bottom: 10px;
-
-
 }
 
 .box-content p {
   font-size: 18px;
-
 }
 
 .button {
@@ -141,10 +132,9 @@ a{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
   margin: 10px;
-  border-radius: 4px;      
-
+  border-radius: 4px;     
 }
 
 /* Footer */
@@ -152,12 +142,15 @@ a{
 #site-footer {
   background-color: #A9A9A9;
   color: #000;
-  border-top: #000080 3px solid;
   border-bottom: #000080 3px solid;
   margin-top: 5px;
   padding-left: 10px;
-  border-radius: 4px; 
-    
+  border-radius: 4px;
+  text-align: center;   
+}
+
+#footer-text a {
+  color: #fff;
 }
 
 
@@ -345,41 +338,36 @@ textarea {
 
 @media screen and (min-width: 750px) {
   body{
-      width:80%;
+    width:80%;
   }
 
   #menu-grid{
-      grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   #menu-grid a{
-      font-size: 1em;
-      margin: auto 0;
-      padding: 10px 0 10px 0;
+    font-size: 1em;
+    margin: auto 0;
+    padding: 10px 0 10px 0;
   }
 
   #site-header{
-      grid-template-columns: 6fr 4fr 0fr;    
+    grid-template-columns: 6fr 4fr 0fr;    
   }
 
 
   .box-content h1 {
-      font-size: 100px;
-      padding-top: 220px;
-    
-    
+    font-size: 100px;
+    padding-top: 220px; /* Krånglar för Iphone X och Responsiv sida, kika på det. */
   }
     
   .box-content p {
-      font-size: 20px;
-      
+    font-size: 20px; 
   }
 
   .button {
-      padding: 10px 50px;
-      font-size: 18px;
-       
-    
+    padding: 10px 50px;
+    font-size: 18px;  
   }
 
 }
@@ -387,7 +375,7 @@ textarea {
 @media screen and (max-width: 330px){
 
   #top-grid{
-      grid-template-rows: 110px 3fr;
+    grid-template-rows: 110px 3fr;
   }
 
 }
