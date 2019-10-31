@@ -30,7 +30,10 @@ body{
 
 a{
   text-decoration: none;
+}
 
+ul {
+  list-style: none;
 }
 
 /* Header */
@@ -111,7 +114,7 @@ a{
 .box-content {
   margin: auto;
   max-width: 800px;
-  height: 100vh;   
+  height: 200vh;   
 }
 
 .box-content h1 {
@@ -154,7 +157,6 @@ a{
   
 }
 
-
 #about-content {
   background: url('../img/repair.jpg'); 
   background-size: cover;
@@ -167,8 +169,20 @@ a{
   border-radius: 4px; 
 }
 
+/* Contact */
 
+#contact-content {
+  background: url('../img/bil.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 0.8em;
+  margin-top: 5px;
+  border-radius: 4px;   
 
+}
 
 /* Footer */
 
