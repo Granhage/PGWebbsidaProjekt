@@ -210,6 +210,12 @@ ul {
   
 }
 
+/* Parts */
+
+.picture img:hover {
+  opacity: 0.7;
+
+}
 
 /*
  * Remove text-shadow in selection highlight:
