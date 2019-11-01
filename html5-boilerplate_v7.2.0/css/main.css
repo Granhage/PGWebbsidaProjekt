@@ -114,24 +114,25 @@ ul {
 .box-content {
   margin: auto;
   max-width: 800px;
-  height: 200vh;   
+  height: 80vh;   /* Ändra här */
 }
 
 .box-content h1 {
-  margin-top: 100px;
+  padding-top: 40px;
+  margin-top: 15vh;
   font-size: 40px;
   margin-bottom: 10px;
 }
 
 .box-content p {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .button {
   background-color: #000080;
   border: none;
   color: white;
-  padding: 8px 40px;
+  padding: 8px 35px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -180,15 +181,24 @@ ul {
   text-align: center;
   padding: 0.8em;
   margin-top: 5px;
-  border-radius: 4px;   
+  border-radius: 4px; 
+}
 
+#maps {
+  margin: auto;
+  height: 50vh;
+  width: 100vw;
+  border: 0;
+  border-radius: 4px;
+  margin-top: 5px;
+  
 }
 
 /* Footer */
 
 #site-footer {
   background-color: #A9A9A9;
-  color: #000;
+  color: #fff;
   border-bottom: #000080 3px solid;
   margin-top: 5px;
   padding-left: 10px;
@@ -197,7 +207,7 @@ ul {
 }
 
 #footer-text a {
-  color: #fff;
+  color: #000;
 }
 
 
@@ -383,39 +393,43 @@ textarea {
   /* Style adjustments for high resolution devices */
 }
 
-@media screen and (min-width: 750px) {
-  body{
-    width:80%;
-  }
+@media screen and (min-width: 850px) {
+body{
+  width:80%;
+}
 
-  #menu-grid{
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+#menu-grid{
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
-  #menu-grid a{
-    font-size: 1em;
-    margin: auto 0;
-    padding: 10px 0 10px 0;
-  }
+#menu-grid a{
+  font-size: 1em;
+  margin: auto 0;
+  padding: 10px 0 10px 0;
+}
 
-  #site-header{
-    grid-template-columns: 6fr 4fr 0fr;    
-  }
+#site-header{
+  grid-template-columns: 6fr 4fr 0fr;    
+}
 
 
-  .box-content h1 {
-    font-size: 100px;
-    padding-top: 220px; /* Krånglar för Iphone X och Responsiv sida, kika på det. */
-  }
+.box-content h1 {
+  font-size: 70px;
+  padding-top: 100px; 
+}
     
-  .box-content p {
-    font-size: 20px; 
-  }
+.box-content p {
+  font-size: 18px; 
+}
 
-  .button {
-    padding: 10px 50px;
-    font-size: 18px;  
-  }
+.button {
+  padding: 8px 50px;
+  font-size: 18px;  
+}
+
+#maps {
+  width: 80vw; 
+}
 
 }
 
