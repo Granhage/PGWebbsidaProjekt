@@ -141,6 +141,22 @@ ul {
   border-radius: 4px;     
 }
 
+/* Footer */
+
+#site-footer {
+  background-color: #A9A9A9;
+  color: #fff;
+  border-bottom: #000080 3px solid;
+  margin-top: 5px;
+  padding-left: 10px;
+  border-radius: 4px;
+  text-align: center;   
+}
+
+#footer-text a {
+  color: #000;
+}
+
 /* About */
 
 .info-box {
@@ -193,23 +209,6 @@ ul {
   margin-top: 5px;
   
 }
-
-/* Footer */
-
-#site-footer {
-  background-color: #A9A9A9;
-  color: #fff;
-  border-bottom: #000080 3px solid;
-  margin-top: 5px;
-  padding-left: 10px;
-  border-radius: 4px;
-  text-align: center;   
-}
-
-#footer-text a {
-  color: #000;
-}
-
 
 
 /*
@@ -409,7 +408,8 @@ body{
 }
 
 #site-header{
-  grid-template-columns: 6fr 4fr 0fr;    
+  grid-template-columns: 6fr 4fr 0fr;
+  font-size: 20px;    
 }
 
 
