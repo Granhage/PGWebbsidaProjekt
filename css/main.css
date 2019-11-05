@@ -81,7 +81,7 @@ ul {
 }
 
 #menu-grid a:hover{
-  background: rgb(49, 49, 49);
+  background: #4D4D4D;
 }
 
 .logo{
@@ -148,14 +148,19 @@ ul {
   color: #fff;
   border-bottom: #000080 5px solid;
   margin-top: 5px;
-  padding-left: 10px;
+  padding-left: 15px;
   border-radius: 4px;
   text-align: center;   
 }
 
 #site-footer a {
   color: #fff;
+  
 
+}
+
+#footer-text a {
+  text-decoration-line: underline;
 }
 
 /* About */
