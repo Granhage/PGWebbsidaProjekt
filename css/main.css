@@ -114,19 +114,19 @@ ul {
 
 .box-content {
   margin: auto;
-  max-width: 800px;
+  max-width: 50em;
   height: 80vh;   /* Ändra här */
 }
 
 .box-content h1 {
   padding-top: 40px;
   margin-top: 15vh;
-  font-size: 40px;
+  font-size: 2.5em;
   margin-bottom: 10px;
 }
 
 .box-content p {
-  font-size: 15px;
+  font-size: 0.9375em;
 }
 
 .button {
@@ -137,7 +137,7 @@ ul {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 15px;
+  font-size: 0.9em;
   margin: 10px;
   border-radius: 4px;    
 }
@@ -177,38 +177,11 @@ ul {
   border-radius: 4px;
   text-align: center;
   border: #000080 5px solid;
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: center;  
 }
 
-
-#about-content {
-  background: url('../img/parts.jpg');
-  font-family: Verdana, Geneva, Tahoma, sans-serif; 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: #fff;
-  text-align: center;
-  padding: 0.8em;
-  margin-top: 5px;
-  border-radius: 4px; 
-}
-
 /* Contact */
-
-#contact-content {
-  background: url('../img/parts.jpg');
-  font-family: Verdana, Geneva, Tahoma, sans-serif; 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: #fff;
-  text-align: center;
-  padding: 0.8em;
-  margin-top: 5px;
-  border-radius: 4px; 
-}
 
 #maps {
   margin: auto;
@@ -408,7 +381,7 @@ textarea {
   /* Style adjustments for high resolution devices */
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 53.125em) {
 body{
   width:80%;
 }
@@ -425,22 +398,22 @@ body{
 
 #site-header{
   grid-template-columns: 6fr 4fr 0fr;
-  font-size: 20px;    
+  font-size: 1.25em;    
 }
 
 
 .box-content h1 {
-  font-size: 70px;
-  padding-top: 100px; 
+  font-size: 4.375em;
+  padding-top: 2.25em; 
 }
     
 .box-content p {
-  font-size: 18px; 
+  font-size: 1.125em; 
 }
 
 .button {
   padding: 8px 50px;
-  font-size: 18px;  
+  font-size: 1.1em;  
 }
 
 #maps {
@@ -449,7 +422,7 @@ body{
 
 }
 
-@media screen and (max-width: 330px){
+@media screen and (max-width: 20.625em){
 
   #top-grid{
     grid-template-rows: 110px 3fr;
