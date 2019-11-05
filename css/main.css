@@ -94,7 +94,7 @@ ul {
 
 .logo img{
   width: 50px;
-  margin-top: -5px;
+  padding: 15px 10px 10px 10px;
 }
 
 /* Index */
@@ -173,7 +173,7 @@ ul {
   padding: 1em;
   background: #6B6B6B;
   box-sizing: border-box;
-  margin-top: 5px;
+  margin-top: 20px;
   border-radius: 4px;
   text-align: center;
   border: #000080 5px solid;
